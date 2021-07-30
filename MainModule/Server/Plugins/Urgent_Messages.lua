@@ -53,7 +53,7 @@ return function(Vargs)
 	Variables.UrgentMessageCounter = MessageVersion;
 
 	Commands.UrgentMessages = {
-		Prefix = ":";
+		Prefix = settings.Prefix;
 		Commands = { "adonisalerts", "urgentmessages", "urgentalerts", "adonismessages", "urgentadonismessages", "ulog"};
 		Args = {};
 		Description = "URGENT ADONIS RELATED MESSAGES";
